@@ -27,10 +27,10 @@
 
 
 //ON BUTTON STATE          // Change the colors of the button when pressed. You can use RGB code. Look it up on Google.com and use like 255,123,205 or whatever the code is for the color you want.
-#define LED_LEFT_COLOR_ON GREEN
-#define LED_DOWN_COLOR_ON GREEN
-#define LED_RIGHT_COLOR_ON GREEN
-#define LED_UP_COLOR_ON GREEN
+#define LED_LEFT_COLOR_ON BLUE
+#define LED_DOWN_COLOR_ON BLUE
+#define LED_RIGHT_COLOR_ON BLUE
+#define LED_UP_COLOR_ON BLUE
 #define LED_P1_COLOR_ON WHITE
 #define LED_P2_COLOR_ON WHITE
 #define LED_P3_COLOR_ON WHITE
@@ -74,11 +74,12 @@
 #define COLOR_RANDOM_8 255,0,127
   
 //BOOT AND IDLE SEQUENCE TIMING
-#define  BOOT_COLOR_DELAY         250
-#define  BOOT_COMPLETE_DELAY      500
+#define  BOOT_COLOR_DELAY         200
+#define  BOOT_COMPLETE_DELAY      375
 #define  MAIN_LOOP_DELAY           50
 #define IDLE_TIMEOUT_SECONDS       30
-#define IDLE_ANIMATION_DELAY      500
+#define IDLE_ANIMATION_DELAY      1
+
 
 
 //LED INDEX             // Change the order of this depending on the order your lights are setup in. So if you started with the firsts J2 at right button, you'd set LED_RIGHT to 0 and LED_RIGHT_B to 1 and on and on. There's two LEDS for each J2 so make sure to use the right order.

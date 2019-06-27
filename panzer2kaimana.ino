@@ -122,6 +122,12 @@ void showStartup(void)
   delay( BOOT_COLOR_DELAY );
   kaimana.setALL( RED );
   delay( BOOT_COLOR_DELAY );
+  kaimana.setALL( WHITE );
+  delay( BOOT_COLOR_DELAY );
+  kaimana.setALL( RED );
+  delay( BOOT_COLOR_DELAY );
+  kaimana.setALL( WHITE  );
+  delay( BOOT_COLOR_DELAY );
 
   kaimana.setALL( BLACK );
   delay( BOOT_COMPLETE_DELAY );
